@@ -102,3 +102,33 @@ a:link:not([class])::-moz-selection {
   text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
   background: #b4d5fe;
 }
+
+hr {
+  display: block;
+  height: 1px;
+  width: 73%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0
+}
+
+.sr {
+  position: absolute!important;
+  clip: rect(0 0 0 0);
+  clip: rect(0,0,0,0);
+  width: 1px;
+  height: 1px;
+  margin: -1px 0 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden
+}
+.ot {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none
+}
